@@ -54,7 +54,7 @@ Used **Seaborn** and **Matplotlib** for:
 - ![image](https://github.com/user-attachments/assets/77f4b52b-4385-4895-b4ff-2db92eb91cb3)
 
 
-### 5. R Integration
+### 5 R Integration
 Used **ggplot2** to recreate the Ratings Distribution chart.
 
 ![image](https://github.com/user-attachments/assets/ee9f0a09-da52-4f4c-958f-5e10a0d2f647)
