@@ -49,13 +49,13 @@ The following Jupyter Notebooks are included in this repository:
   - A bar plot showing the top 10 most common genres.
   - Helped identify what kind of content dominates Netflix's catalog.
  
-  - - ![image](https://github.com/user-attachments/assets/393d1900-40f7-4bb5-9554-d5ef81ffa711)
+ ![image](https://github.com/user-attachments/assets/393d1900-40f7-4bb5-9554-d5ef81ffa711)
   
 - **Ratings Distribution**
   - Displayed the frequency of each rating (e.g., TV-MA, TV-14).
   - Useful for understanding Netflix's target age groups and content censorship levels.
  
-  - - ![image](https://github.com/user-attachments/assets/77f4b52b-4385-4895-b4ff-2db92eb91cb3)
+![image](https://github.com/user-attachments/assets/77f4b52b-4385-4895-b4ff-2db92eb91cb3)
 
 ### R Visuals
 
