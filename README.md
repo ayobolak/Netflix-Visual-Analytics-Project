@@ -18,7 +18,7 @@ The following Jupyter Notebooks are included in this repository:
 
 ---
 
-## 🧠 Tasks Completed
+##  Tasks Completed
 
 1. **Data Preparation**
    - Renamed dataset to `Netflix_shows_movies`.
@@ -70,7 +70,7 @@ The following Jupyter Notebooks are included in this repository:
 
 ---
 
-## 🚀 How to Run the Code
+##  How to Run the Code
 
 ### Python
 
@@ -87,7 +87,7 @@ The following Jupyter Notebooks are included in this repository:
 
 ---
 
-## ✅ Summary
+##  Summary
 
 This project provides a complete walkthrough of Netflix data analysis and visualization using both Python and R. It includes data cleaning, exploration, and clear instructions for reproducibility.
 
