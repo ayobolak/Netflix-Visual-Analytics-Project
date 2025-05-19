@@ -1,60 +1,80 @@
 # Netflix-Visual-Analytics-Project
 This repository contains the Netflix Visual Analytics assignment completed using both Python and R. The goal of this project is to analyze and visualize Netflix data to derive insights about its shows and movies.
 
-# Netflix Data Analysis Project
 
-This project focuses on performing visual analytics on a Netflix dataset using both Python and R. As a developer at Netflix, the goal is to explore, clean, and visualize insights such as most watched genres and rating distributions. 
+# Netflix Visual Analytics Project
 
----
-
-## 📁 File Structure
-
-- `Netflix_shows_movies_cleaned.csv` – Cleaned dataset used for analysis
-- Python Notebook: Contains
-  - Data Preparation
-  - Data Cleaning
-  - Data Exploration
-  - Python Visualizations
-- R Script / Notebook: Contains
-  - One visualization recreated in R (ratings distribution)
+This project involves analyzing and visualizing Netflix data using both **Python** and **R**. It covers data cleaning, exploration, and visual storytelling to extract insights such as the most-watched genres and the distribution of show ratings.
 
 ---
 
-## ✅ Tasks Completed
+## 📁 Uploaded Files
 
-### 1. Data Preparation
-- Loaded and read the Netflix dataset.
-- Cleaned and saved as `Netflix_shows_movies_cleaned.csv`.
+The following Jupyter Notebooks are included in this repository:
 
-### 2. Data Cleaning
-- Missing values handled:
-  - `director`, `cast`, and `country` columns filled with `"Unknown"`.
-  - `date_added` filled with the mode date.
-  - `rating` filled with the mode rating.
+- `Netflix_Analysis.ipynb` — Main Python notebook (cleaning, exploration, visualization)
+- `Netflix_R_Chart.R` — R script for generating a ratings distribution chart
+- `Netflix_shows_movies_cleaned.csv` — Cleaned dataset used in Python and R
 
-### 3. Data Exploration
-- Descriptive statistics and dataset summary explored.
-- Basic frequency distributions and data types reviewed.
+---
 
-### 4. Data Visualization (Python)
-Used **Seaborn** and **Matplotlib** for:
+## 🧠 Tasks Completed
 
-#### 📊 Most Watched Genres
-- The `listed_in` column was split to extract top genres.
-- Bar chart visualized the frequency of the top 10 genres.
-- **Insight:** Drama, International Movies, and Comedy were the most frequent genres.
+1. **Data Preparation**
+   - Renamed dataset to `Netflix_shows_movies`.
+   - Loaded and inspected data.
 
-- ![image](https://github.com/user-attachments/assets/393d1900-40f7-4bb5-9554-d5ef81ffa711)
+2. **Data Cleaning**
+   - Handled missing values in columns like `director`, `cast`, `country`, `date_added`, and `rating`.
 
+3. **Data Exploration**
+   - Descriptive statistics (count, unique values, top values)
+   - Value counts for key columns
 
-#### 📈 Ratings Distribution
-- Bar plot showing how many shows fall under each rating (TV-MA, TV-14, etc.).
-- **Insight:** Most shows are rated TV-MA and TV-14, suggesting a mature audience focus.
+4. **Data Visualization (Python)**
+   - **Most Watched Genres**: Bar chart of most common genres based on the `listed_in` column.
 
-- ![image](https://github.com/user-attachments/assets/77f4b52b-4385-4895-b4ff-2db92eb91cb3)
+   - **Ratings Distribution**: Countplot showing how titles are distributed across ratings.
 
+5. **Data Visualization (R)**
+   - Replicated the **ratings distribution** chart using `ggplot2` in R.
 
-### 5 R Integration
-Used **ggplot2** to recreate the Ratings Distribution chart.
+---
 
+## 📊 Visualization Explanations
+
+### Python Visuals
+
+- **Most Watched Genres**
+  - A bar plot showing the top 10 most common genres.
+  - Helped identify what kind of content dominates Netflix's catalog.
+ 
+  - - ![image](https://github.com/user-attachments/assets/393d1900-40f7-4bb5-9554-d5ef81ffa711)
+  
+- **Ratings Distribution**
+  - Displayed the frequency of each rating (e.g., TV-MA, TV-14).
+  - Useful for understanding Netflix's target age groups and content censorship levels.
+ 
+  - - ![image](https://github.com/user-attachments/assets/77f4b52b-4385-4895-b4ff-2db92eb91cb3)
+
+### R Visuals
+
+- **Ratings Distribution (Recreated in R)**
+  - Used `ggplot2` to visualize the count of titles per rating.
+  - Replicates and validates the Python visualization in another language.
+ 
+  - 
 ![image](https://github.com/user-attachments/assets/ee9f0a09-da52-4f4c-958f-5e10a0d2f647)
+
+---
+
+## 🚀 How to Run the Code
+
+### 🐍 Python Instructions
+
+1. Make sure Python (or Anaconda) is installed.
+2. Clone or download this repository.
+3. Install required libraries:
+   ```bash
+   pip install pandas matplotlib seaborn
+
