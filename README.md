@@ -12,8 +12,8 @@ This project involves analyzing and visualizing Netflix data using both **Python
 
 The following Jupyter Notebooks are included in this repository:
 
-- `Netflix_Analysis.ipynb` — Main Python notebook (cleaning, exploration, visualization)
-- `Netflix_R_Chart.R` — R script for generating a ratings distribution chart
+- `Netflix Show Movies.ipynb` — Main Python notebook (cleaning, exploration, visualization)
+- `Netflix Show movies R.R` — R script for generating a ratings distribution chart
 - `Netflix_shows_movies_cleaned.csv` — Cleaned dataset used in Python and R
 
 ---
@@ -63,18 +63,28 @@ The following Jupyter Notebooks are included in this repository:
   - Used `ggplot2` to visualize the count of titles per rating.
   - Replicates and validates the Python visualization in another language.
  
-  - 
 ![image](https://github.com/user-attachments/assets/ee9f0a09-da52-4f4c-958f-5e10a0d2f647)
 
 ---
 
 ## 🚀 How to Run the Code
 
-### 🐍 Python Instructions
+### Python
 
-1. Make sure Python (or Anaconda) is installed.
-2. Clone or download this repository.
-3. Install required libraries:
-   ```bash
-   pip install pandas matplotlib seaborn
+- Open `Netflix Show movies.ipynb` in Jupyter Notebook or VS Code.  
+- Run each cell in order.
+
+### R
+
+- Open `Netflix show movies R.R` in RStudio.  
+- Set your working directory to the location of the CSV file using `setwd("your/folder/path")`.  
+- Make sure `ggplot2` is installed using `install.packages("ggplot2")`.  
+- Load the package with `library(ggplot2)`.  
+- Run the script to generate the rating distribution chart.
+
+---
+
+## ✅ Summary
+
+This project provides a complete walkthrough of Netflix data analysis and visualization using both Python and R. It includes data cleaning, exploration, and clear instructions for reproducibility.
 
