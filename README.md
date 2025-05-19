@@ -52,7 +52,7 @@ The following Jupyter Notebooks are included in this repository:
  
  ![image](https://github.com/user-attachments/assets/393d1900-40f7-4bb5-9554-d5ef81ffa711)
   
-- **Ratings Distribution**
+**Ratings Distribution**
   
   - Displayed the frequency of each rating (e.g., TV-MA, TV-14).
   - Useful for understanding Netflix's target age groups and content censorship levels.
