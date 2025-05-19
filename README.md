@@ -45,13 +45,15 @@ The following Jupyter Notebooks are included in this repository:
 
 ### Python Visuals
 
-- **Most Watched Genres**
+**Most Watched Genres**
+  
   - A bar plot showing the top 10 most common genres.
   - Helped identify what kind of content dominates Netflix's catalog.
  
  ![image](https://github.com/user-attachments/assets/393d1900-40f7-4bb5-9554-d5ef81ffa711)
   
 - **Ratings Distribution**
+  
   - Displayed the frequency of each rating (e.g., TV-MA, TV-14).
   - Useful for understanding Netflix's target age groups and content censorship levels.
  
@@ -59,7 +61,8 @@ The following Jupyter Notebooks are included in this repository:
 
 ### R Visuals
 
-- **Ratings Distribution (Recreated in R)**
+ **Ratings Distribution (Recreated in R)**
+ 
   - Used `ggplot2` to visualize the count of titles per rating.
   - Replicates and validates the Python visualization in another language.
  
